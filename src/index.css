@@ -1,6 +1,8 @@
 :root {
   --black: #1d1d1d;
   --dark-gray: #303030;
+  --soft-gray: #e9e9e9;
+  --transparent-black: #00000033;
   --white: #fff;
 }
 
@@ -29,4 +31,10 @@ img {
 
 ul {
   list-style: none;
+}
+
+.navbar {
+  margin-inline: auto;
+  max-width: 1600px;
+  padding: 2em;
 }
