@@ -1,11 +1,15 @@
+import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar/Navbar"
+import Collection from "./pages/Collection"
 
 function App() {
 
   return (
     <>
       <Navbar/>
-      <h1>Online Store</h1>
+      <Routes>
+        <Route path="/collections/:handle" element={<Collection/>}/>
+      </Routes>
     </>
   )
 }

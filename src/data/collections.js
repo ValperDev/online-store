@@ -1,12 +1,12 @@
 export const collections = [
 	{
 		"id": 1,
-		"name": "Men",
-		"handle": "shop-men"
+		"name": "Men's",
+		"handle": "men"
 	},
 	{
 		"id": 2,
-		"name": "Women",
-		"handle": "shop-women"
+		"name": "Women's",
+		"handle": "women"
 	}
 ]

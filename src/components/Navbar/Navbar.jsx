@@ -13,7 +13,7 @@ export default function Navbar() {
         <ul className="navbar__list">
           {collections.map(collection => (
             <li key={collection.id} className="navbar__item">
-              <NavLink to={`/${collection.handle}`} className="navbar__link">{collection.name}</NavLink>
+              <NavLink to={`/collections/${collection.handle}`} className="navbar__link">{collection.name}</NavLink>
             </li>
           ))}
         </ul>
